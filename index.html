@@ -9,12 +9,39 @@
   </head>
 
   <body>
+    <div class="game-title">
+      <h1>Guess Number Foo!</h1>
+    </div>
 
+    <div class="subtitle">
+      <h3>Between 1 and 100</h3>
+    </div>
+    
+    <div class="input-box">
+      <input type="text" id="player-input" />
+    </div>
 
+    <div class="past-guesses">
+      <ul>
+        <li><p></p></li>
+        <li><p></p></li>
+        <li><p></p></li>
+        <li><p></p></li>
+        <li><p></p></li>
+      </ul>
+    </div>
 
+    <div id="buttons">
+      <button type="submit" for="player-input" id="submit-guess">Submit</button>
+      <button type="reset">Reset</button>
+      <button type="submit" id="hint-button">Hint</button>
+    </div>
 
+    <div id="message-box">
+      <h3></h3>
+    </div>
 
-    <!-- <script src='js/guessing-game.js'></script> -->
+    <script src='js/guessing-game.js'></script>
     <!-- uncomment the script tag above when you are ready to add JavaScript to your document -->
   </body>
 
